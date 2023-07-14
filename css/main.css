@@ -1,3 +1,12 @@
+body {
+  color: #000000;
+  background-color: #fff8f3;
+  font-family: Comfortaa, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
 h1,
 h2,
 h3,
@@ -16,6 +25,40 @@ img {
   height: auto;
 }
 
+.container {
+  width: 340px;
+  margin: 0 auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  font-size: 11px;
+  font-weight: 600;
+  color: #272727;
+  background-color: #ffbd59;
+  padding: 11px 23px;
+  border: none;
+}
+
+h2 {
+  font-family: Yeseva One;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.text {
+  font-size: 8px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -28,4 +71,215 @@ img {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.header {
+  background-color: #fff8f3;
+}
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+}
+
+.nav {
+  display: none;
+}
+
+.contacts__link {
+  font-size: 10px;
+  line-height: 15px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contacts__icon {
+  fill: #a5978e;
+  width: 14px;
+  height: 14px;
+  margin-right: 2px;
+}
+
+.btn__menu {
+  border: none;
+  background-color: #fff8f3;
+}
+
+.menu__icon {
+  fill: #7b6152;
+  width: 30px;
+  height: 25px;
+}
+
+.hero {
+  padding: 30px 5px 50px 10px;
+}
+.hero__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.hero__info {
+  width: 203px;
+  margin-top: 30px;
+}
+.hero__title {
+  font-family: Yeseva One;
+  font-size: 18px;
+  font-weight: 400;
+}
+.hero__text {
+  font-size: 10px;
+  margin: 15px 0;
+}
+.hero__img1 {
+  width: 130px;
+  height: 152px;
+  background-image: url("../../images/hero/hero-sm1.png");
+  background-repeat: no-repeat;
+  background-size: 166px;
+  background-position-x: 73%;
+  background-position-y: 43%;
+}
+
+.about {
+  background-color: #a5978e;
+  padding: 25px 10px 40px;
+}
+.about__container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about__info {
+  width: 215px;
+}
+.about__title {
+  text-align: left;
+  color: #fafafa;
+}
+.about__text {
+  color: #fafafa;
+  margin: 10px 0;
+}
+.about__img {
+  width: 80px;
+  height: 80px;
+  background-image: url("../../images/about/about-sm.jpg");
+  margin-left: 25px;
+}
+
+.cake {
+  position: absolute;
+  top: 95%;
+  right: 25%;
+  width: 24px;
+  height: 33px;
+  background-image: url("../../images/cake-sm.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.line {
+  width: 77px;
+  height: 1px;
+  background-color: #7b6152;
+  position: absolute;
+  bottom: 34%;
+  left: 92%;
+}
+
+.catalog {
+  padding: 50px 5px 0;
+}
+.catalog__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.catalog__info {
+  width: 235px;
+}
+.catalog__text {
+  text-align: center;
+  margin: 10px 0 25px;
+}
+.catalog__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.catalog__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  height: 285px;
+}
+.catalog__link {
+  padding: 0 5px;
+}
+.catalog__img-box {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.catalog__price {
+  font-family: Yeseva One;
+  font-size: 10px;
+  margin: 5px 0;
+}
+.catalog__name {
+  font-family: Yeseva One;
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+.catalog__img-info {
+  font-size: 6px;
+}
+.catalog__btn {
+  margin: 17px auto 0;
 }/*# sourceMappingURL=main.css.map */

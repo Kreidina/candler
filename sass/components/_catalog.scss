@@ -1,0 +1,52 @@
+.catalog {
+  padding: 50px 5px 0;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__info {
+    width: 235px;
+  }
+  &__text {
+    text-align: center;
+    margin: 10px 0 25px;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 285px;
+  }
+  &__link {
+    padding: 0 5px;
+  }
+  &__img-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  &__price {
+    font-family: Yeseva One;
+    font-size: 10px;
+    margin: 5px 0;
+  }
+  &__name {
+    font-family: Yeseva One;
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+  &__img-info {
+    font-size: 6px;
+  }
+  &__btn {
+    margin: 17px auto 0;
+  }
+}

@@ -1,0 +1,45 @@
+.about {
+  background-color: $bcg-color;
+  padding: 25px 10px 40px;
+  &__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  &__info {
+    width: 215px;
+  }
+  &__title {
+    text-align: left;
+    color: $white-color;
+  }
+  &__text {
+    color: $white-color;
+    margin: 10px 0;
+  }
+  &__img {
+    width: 80px;
+    height: 80px;
+    background-image: url("../../images/about/about-sm.jpg");
+    margin-left: 25px;
+  }
+}
+.cake {
+  position: absolute;
+  top: 95%;
+  right: 25%;
+  width: 24px;
+  height: 33px;
+  background-image: url("../../images/cake-sm.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.line {
+  width: 77px;
+  height: 1px;
+  background-color: #7b6152;
+  position: absolute;
+  bottom: 34%;
+  left: 92%;
+}

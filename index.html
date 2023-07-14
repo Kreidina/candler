@@ -27,131 +27,174 @@
       <!--  header ////////////////////////////////////////////////////////////////////////-->
       <section class="header">
         <div class="header__container container">
-          <a href="./index.html"> <img src="./icons/logo.png" alt="logo" /></a>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#about">Про нас</a></li>
-            <li><a href="#catalog">Каталог</a></li>
-            <li><a href="#team">Команда</a></li>
-            <li><a href="#reviews">Відгуки</a></li>
-            <li><a href="#couses">Курси</a></li>
-            <li><a href="#contacts">Контакти</a></li>
-          </ul>
-        </nav>
-        <div class="contacts">
-          <a href="tell:+45 65 78 98 76">
-            <svg width="16" height="12">
-              <use href="./icons/sprite.svg#phone"></use></svg
-            ><span>+45 65 78 98 76</span></a
-          >
-        </div>
+          <a class="logo__link link" chref="./index.html">
+            <img src="./icons/logo.png" alt="logo"
+          /></a>
 
-        <button>
-          <svg width="20" height="20">
-            <use href="./icons/sprite.svg#menu-icon"></use>
-          </svg>
-        </button>
+          <nav class="nav">
+            <ul class="nav__list list">
+              <li class="nav__item">
+                <a class="nav__link link" href="#about">Про нас</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link link" href="#catalog">Каталог</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link link" href="#team">Команда</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link link" href="#reviews">Відгуки</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link link" href="#couses">Курси</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link link" href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contacts">
+            <a class="contacts__link link" href="tell:+45 65 78 98 76">
+              <svg class="contacts__icon">
+                <use href="./icons/sprite.svg#phone"></use></svg
+              >+45 65 78 98 76</a
+            >
+          </div>
+
+          <button type="button" class="btn__menu">
+            <svg class="menu__icon">
+              <use href="./icons/sprite.svg#menu-icon"></use>
+            </svg>
+          </button>
+        </div>
       </section>
     </header>
     <main>
       <!--  hero ////////////////////////////////////////////////////////////////////////-->
       <section class="hero">
-        <div class="container">
-          <div>
-            <h1>Створіть атмосферу затишку та гармонії!</h1>
-            <p>
+        <div class="hero__container container">
+          <div class="hero__info">
+            <h1 class="hero__title">Створіть атмосферу затишку та гармонії!</h1>
+            <p class="hero__text">
               Створіть особливу атмосферу у своєму домі з нашою екологічно
               чистою та якісною продукцією зі 100% натуральної соєвого воску.
             </p>
-            <button><a href="#catalog">Купити</a></button>
+            <button class="hero__btn btn">
+              <a class="hero__btn__link link" href="#catalog">Купити</a>
+            </button>
           </div>
-          <img src="./images/hero/hero4.jpg" alt="candel" />
+          <div class="hero__img1"></div>
         </div>
       </section>
       <!--  about ////////////////////////////////////////////////////////////////////////-->
       <section class="about" id="adout">
-        <div class="container">
-          <div>
-            <h2>Про нас</h2>
-            <p>
+        <div class="about__container container">
+          <div class="about__info">
+            <h2 class="about__title">Про нас</h2>
+            <p class="text about__text">
               Богдан творець бренду який завжди зацікавлений у виготовленні
               різноманітних речей вдома. Він регулярно експериментував з різними
               матеріалами та інструментами, спробувавши свої сили у багатьох
-              галузях, включаючи виготовлення свічок. Ссоєвий віск виготовляють
-              із соєвих бобів, що зрощуються в Данії, і цей вид воску є
-              екологічно чистим та безпечним для здоров'я.
+              галузях, включаючи виготовлення свічок.
+            </p>
+
+            <p class="about__text text">
+              Ссоєвий віск виготовляють із соєвих бобів, що зрощуються в Данії,
+              і цей вид воску є екологічно чистим та безпечним для здоров'я.
             </p>
           </div>
-          <img alt="candel" src="./images/about/about1.jpg" />
+          <div class="about__img"></div>
+          <div class="cake">
+            <div class="line"></div>
+          </div>
         </div>
       </section>
       <!--  catalog ////////////////////////////////////////////////////////////////////////-->
       <section class="catalog" id="catalog">
-        <div class="container">
-          <div>
-            <h2>Наші товари</h2>
-            <p>
+        <div class="catalog__container container">
+          <div class="catalog__info">
+            <h2 class="catalog__title">Наші товари</h2>
+            <p class="catalog__text text">
               Ми використовуємо тільки найкращі якісні матеріали: соєвий віск,
               віскові барвники, високоякісні ароматичні олії та бавовняні
               фітільці. Відтінки свічок дуже гармонійно поєднуються з ароматом,
               створюючи незабутню атмосферу у вашому домі.
             </p>
           </div>
-          <ul>
-            <li>
-              <a
-                ><img alt="Heart of love" src="./images/product/product1.jpg" />
-                <p>10$</p>
-                <h3>"Сердечко кохання"</h3>
-                <p>
-                  Запах: ніжний аромат троянди та ванілі. Для чого: для
-                  атмосфери романтичного настрою
-                </p>
-                <button><a>Купити</a></button></a
-              >
-            </li>
-            <li>
-              <a
+          <ul class="catalog__list list">
+            <li class="catalog__item">
+              <a href="#" class="catalog__link link"
                 ><img
+                  class="catalog__img"
+                  alt="Heart of love"
+                  src="./images/product/pr-sm1.jpg"
+                />
+                <div class="catalog__img-box">
+                  <p class="catalog__price">10$</p>
+                  <h3 class="catalog__name">"Сердечко кохання"</h3>
+                  <p class="catalog__img-info">
+                    Запах: ніжний аромат троянди та ванілі. Для чого: для
+                    атмосфери романтичного настрою
+                  </p>
+                  <button class="catalog__btn btn"><a>Купити</a></button>
+                </div>
+              </a>
+            </li>
+            <li class="catalog__item">
+              <a href="#" class="catalog__link link"
+                ><img
+                  class="catalog__img"
                   alt="Whirlwind of love"
-                  src="./images/product/product2.jpg"
+                  src="./images/product/pr-sm2.jpg"
                 />
-                <p>20$</p>
-                <h3>"Вихір кохання"</h3>
-                <p>
-                  Запах: ніжний аромат лаванди. Для чого: для створення
-                  атмосфери затишку
-                </p>
-                <button><a>Купити</a></button></a
-              >
+                <div class="catalog__img-box">
+                  <p class="catalog__price">20$</p>
+                  <h3 class="catalog__name">"Вихір кохання"</h3>
+                  <p class="catalog__img-info">Запах: ніжний аромат лаванди.</p>
+                  <p class="catalog__img-info">
+                    Для чого: для створення атмосфери затишку
+                  </p>
+                  <button class="catalog__btn btn"><a>Купити</a></button>
+                </div>
+              </a>
             </li>
-            <li>
-              <a
-                ><img alt="Rainbow" src="./images/product/product3.jpg" />
-                <p>10$</p>
-                <h3>"Веселка"</h3>
-                <p>
-                  Запах: Свіжий аромат лайма. Для чого: для енергії та свіжості
-                  в приміщені.
-                </p>
-                <button><a>Купити</a></button></a
-              >
-            </li>
-            <li>
-              <a
+            <li class="catalog__item">
+              <a href="#" class="catalog__link link"
                 ><img
-                  alt="Feminine charm"
-                  src="./images/product/product4.jpg"
+                  class="catalog__img"
+                  alt="Rainbow"
+                  src="./images/product/pr-sm3.jpg"
                 />
-                <p>10$</p>
-                <h3>"Жіноча чарівність"</h3>
-                <p>
-                  Запах: ніжний аромат лаванди та фрезій. Для чого: для затишку
-                  та комфорту.
-                </p>
-                <button><a>Купити</a></button></a
-              >
+                <div class="catalog__img-box">
+                  <p class="catalog__price">10$</p>
+                  <h3 class="catalog__name">"Веселка"</h3>
+                  <p class="catalog__img-info">Запах: Свіжий аромат лайма.</p>
+                  <p class="catalog__img-info">
+                    Для чого: для енергії та свіжості в приміщені.
+                  </p>
+                  <button class="catalog__btn btn"><a>Купити</a></button>
+                </div>
+              </a>
+            </li>
+            <li class="catalog__item">
+              <a href="#" class="catalog__link link"
+                ><img
+                  class="catalog__img"
+                  alt="Feminine charm"
+                  src="./images/product/pr-sm4.jpg"
+                />
+                <div class="catalog__img-box">
+                  <p class="catalog__price">10$</p>
+                  <h3 class="catalog__name">"Жіноча чарівність"</h3>
+                  <p class="catalog__img-info">
+                    Запах: ніжний аромат лаванди та фрезій.
+                  </p>
+                  <p class="catalog__img-info">
+                    Для чого: для затишку та комфорту.
+                  </p>
+                  <button class="catalog__btn btn"><a>Купити</a></button>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
