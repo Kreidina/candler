@@ -1,0 +1,28 @@
+body {
+  color: $primary-text-color;
+  background-color: $primary-white-color;
+  font-family: Comfortaa, sans-serif;
+  letter-spacing: 0.03em;
+
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
